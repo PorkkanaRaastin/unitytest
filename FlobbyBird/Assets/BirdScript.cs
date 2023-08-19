@@ -18,7 +18,7 @@ public class BirdScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) == true)
         {
-            myRigidbody.velocity = Vector2.up * flapStrenght;
+            myRigidbody.velocity = Vector2.up * 10;
         }
 
 
